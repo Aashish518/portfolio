@@ -12,10 +12,11 @@ const Experience = () => {
             period: 'Oct 2025 – Present',
             responsibilities: [
                 'Built full-stack web applications using MongoDB, Express.js, React.js, and Node.js',
+                'Implemented efficient frontend state management with Redux Toolkit, Zustand, and TanStack Query (React Query) for API caching and synchronization',
                 'Designed and developed RESTful APIs',
                 'Implemented authentication & authorization (JWT-based)',
                 'Worked with MongoDB schemas, aggregation, and optimization',
-                'Deployed and tested applications in real-world environments'
+                'Deployed and tested applications in real-world environments',
             ]
         },
         {

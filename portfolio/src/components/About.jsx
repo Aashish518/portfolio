@@ -33,15 +33,15 @@ const About = () => {
                         <div className="grid grid-cols-2 gap-4 pt-4">
                             <div className="p-4 bg-white rounded-lg border border-slate-200">
                                 <h4 className="font-bold text-slate-800 mb-1 text-2xl sm:text-3xl">
-                                    01+
+                                    08+
                                 </h4>
                                 <p className="text-xs sm:text-sm text-slate-500 font-medium">
-                                    Years Experience
+                                    month Experience
                                 </p>
                             </div>
                             <div className="p-4 bg-white rounded-lg border border-slate-200">
                                 <h4 className="font-bold text-slate-800 mb-1 text-2xl sm:text-3xl">
-                                    10+
+                                    5+
                                 </h4>
                                 <p className="text-xs sm:text-sm text-slate-500 font-medium">
                                     Projects Built
@@ -55,11 +55,11 @@ const About = () => {
                             { icon: <Code className="w-8 h-8 text-slate-700" />, title: "Frontend", desc: "React, Tailwind" },
                             { icon: <Server className="w-8 h-8 text-slate-700" />, title: "Backend", desc: "Node, Express" },
                             { icon: <Database className="w-8 h-8 text-slate-700" />, title: "Database", desc: "MongoDB, SQL" },
-                            { icon: <Globe className="w-8 h-8 text-slate-700" />, title: "Deployment", desc: "AWS, Vercel" },
+                            { icon: <Globe className="w-8 h-8 text-slate-700" />, title: "Deployment", desc: "VPS, Render, Vercel" },
                         ].map((item, idx) => (
                             <div
                                 key={idx}
-                                className="p-6 bg-white hover:border-slate-400 transition-all duration-300 rounded-xl border border-slate-200 group"
+                                className="flex flex-col items-center justify-center p-6 bg-white hover:border-slate-400 transition-all duration-300 rounded-xl border border-slate-200 group"
                             >
                                 <div className="mb-4 bg-slate-50 w-14 h-14 rounded-full flex items-center justify-center shadow-sm">
                                     {item.icon}

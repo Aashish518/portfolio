@@ -15,8 +15,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="text-slate-600 max-w-lg mx-auto lg:mx-0 text-sm sm:text-base md:text-lg">
-                        I build accessible, pixel-perfect, and performant web experiences.
-                        Specializing in the MERN stack and modern React ecosystems.
+                        I build accessible, accurate, and fast websites using the MERN stack and React.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -30,7 +29,7 @@ const Hero = () => {
                         </a>
 
                         <a
-                            href="/Aashish_Jadav_Resume.pdf"
+                            href="/Aashish Resume.pdf"
                             download
                             className="inline-flex items-center justify-center px-7 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold text-slate-900 transition-all bg-white border border-slate-200 rounded-lg hover:bg-slate-50 hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 shadow-sm"
                         >
@@ -59,9 +58,9 @@ const Hero = () => {
 
                         <div className="w-full h-full rounded-full overflow-hidden border-4 border-white shadow-2xl relative">
                             <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=774&q=80"
+                                src="/Aashish Photo.jpeg"
                                 alt="Profile"
-                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 hover:scale-110"
+                                className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-500 hover:scale-110"
                             />
                         </div>
                     </div>
