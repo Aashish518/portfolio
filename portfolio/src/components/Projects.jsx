@@ -7,7 +7,7 @@ const Projects = () => {
     const projects = [
         {
             title: 'Find-Books',
-            description: 'A MERN stack Hostel Management System where the admin can manage student applications, admissions, complaints, room availability, and allocations through a secure Admin Panel. It features role-based access, JWT authentication, bcrypt password protection, and file uploads using Multer—all within a responsive interface.',
+            description: 'PlatformFINDBOOKS lets users register, browse, and buy books, while resellers list and sell them. Payments are handled via Razorpay, emails via Nodemailer, and images via Cloudinary. Admins manage users, books, orders, and deliveries through a central dashboard.',
             technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'CSS'],
             link: 'https://find-books-q05m.onrender.com',
             github: 'https://github.com/Aashish518/Find-Books---Online-Web-Site',
