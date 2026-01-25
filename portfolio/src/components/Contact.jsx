@@ -69,7 +69,7 @@ const Contact = () => {
                         <div className="space-y-6">
                             {[
                                 { icon: <Mail size={24} />, label: "Email", value: "jadavaashish9@gmail.com", href: "mailto:jadavaashish9@gmail.com" },
-                                { icon: <Phone size={24} />, label: "Phone", value: "+91 6355831203", href: "tel:+919876543210" },
+                                { icon: <Phone size={24} />, label: "Phone", value: "+91 6355831203", href: "tel:+916355831203" },
                                 { icon: <MapPin size={24} />, label: "Location", value: "Shashtrinagar, Ahmedabad, Gujarat, India", href: null }
                             ].map((item, idx) => (
                                 <div key={idx} className="flex items-center gap-4 lg:gap-6 p-4 rounded-xl bg-white border border-slate-200 shadow-sm hover:border-slate-400 transition-all">
