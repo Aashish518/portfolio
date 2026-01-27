@@ -133,7 +133,7 @@ const Contact = () => {
                                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                         className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-slate-800 focus:ring-1 focus:ring-slate-800 outline-none transition-all bg-slate-50 focus:bg-white disabled:opacity-50
                                                    text-sm sm:text-base"
-                                        placeholder="John Doe"
+                                        placeholder="Your Name"
                                         disabled={status === 'submitting'}
                                     />
                                 </div>
@@ -149,7 +149,7 @@ const Contact = () => {
                                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                         className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-slate-800 focus:ring-1 focus:ring-slate-800 outline-none transition-all bg-slate-50 focus:bg-white disabled:opacity-50
                                                    text-sm sm:text-base"
-                                        placeholder="john@example.com"
+                                        placeholder="abc@example.com"
                                         disabled={status === 'submitting'}
                                     />
                                 </div>
