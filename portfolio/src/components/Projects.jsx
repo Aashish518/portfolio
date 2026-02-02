@@ -28,6 +28,14 @@ const Projects = () => {
             link: 'https://map-integration-1.onrender.com',
             github: 'https://github.com/Aashish518/Map-integration',
             thumbnail: '/map.png'
+        },
+        {
+            title: 'Chat App',
+            description: 'A full-stack real-time chat application built using the MERN stack. Styled with Tailwind CSS to deliver a modern and responsive user interface. Socket.io enables instant, bi-directional messaging between users. Designed for smooth, fast, and scalable real-time communication.',
+            technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'tailwindcss','Socket.io'],
+            link: 'https://socketchatapp-85zq.onrender.com',
+            github: 'https://github.com/Aashish518/chatapp',
+            thumbnail: '/chatapp.png'
         }
     ];
 
