@@ -27,7 +27,7 @@ const Skills = () => {
     ];
 
     return (
-        <Section id="skills" className="bg-slate-50">
+        <Section id="skills" className="bg-slate-50 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div className="text-center mb-16 space-y-4">
                 <h2 className="font-bold text-slate-900 text-2xl sm:text-3xl md:text-4xl">

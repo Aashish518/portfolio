@@ -41,7 +41,7 @@ const Contact = () => {
 
     return (
         <Section id="contact" className="bg-white">
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-7xl mx-auto xl:px-8">
 
                 <div className="text-center mb-12 lg:mb-16 space-y-4">
                     <h2 className="font-bold text-slate-900 text-2xl sm:text-3xl md:text-4xl">

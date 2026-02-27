@@ -5,7 +5,7 @@ import { Code, Server, Database, Globe } from 'lucide-react';
 const About = () => {
     return (
         <Section id="about" className="bg-slate-50">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-7xl mx-auto xl:px-8">
 
                 <div className="text-center mb-16 space-y-4">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
@@ -17,18 +17,20 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="grid lg:grid-cols-2 gap-12">
 
-                    <div className="space-y-6 text-slate-600 leading-relaxed text-sm sm:text-base md:text-lg">
-                        <p>
-                            Hi! I'm a <span className="font-semibold text-slate-900">MERN Stack Developer</span> with 9 months of professional experience.
-                            My journey began with a curiosity for how things work on the web, which led me to dive deep into the ecosystem of JavaScript.
-                        </p>
-                        <p>
-                            I thrive on challenges and constantly seek to improve my skills.
-                            Whether it's optimizing backend queries or crafting pixel-perfect frontend components,
-                            I treat every line of code as an opportunity to learn.
-                        </p>
+                    <div className="flex flex-col justify-between space-y-6 text-slate-600 leading-relaxed text-sm sm:text-base md:text-lg">
+                        <div className='text-justify'>
+                            <p>
+                                Hi! I'm a <span className="font-semibold text-slate-900">MERN Stack Developer</span> with 9 months of professional experience.
+                                My journey began with a curiosity for how things work on the web, which led me to dive deep into the ecosystem of JavaScript.
+                            </p><br/>
+                            <p>
+                                I thrive on challenges and constantly seek to improve my skills.
+                                Whether it's optimizing backend queries or crafting pixel-perfect frontend components,
+                                I treat every line of code as an opportunity to learn.
+                            </p>
+                        </div>
 
                         <div className="grid grid-cols-2 gap-4 pt-4">
                             <div className="p-4 bg-white rounded-lg border border-slate-200">

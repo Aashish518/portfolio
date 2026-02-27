@@ -67,3 +67,8 @@
 .delay-300 {
   animation-delay: 300ms;
 }
+
+
+.swiper-wrapper .swiper-slide{
+height:auto;
+}
