@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './ui/Section';
-import { Github, Linkedin, Mail, ArrowRight, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowRight, Download, Eye } from 'lucide-react';
 
 const Hero = () => {
     return (
@@ -36,7 +36,7 @@ const Hero = () => {
                             className="inline-flex items-center justify-center px-7 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold text-slate-900 transition-all bg-white border border-slate-200 rounded-lg hover:bg-slate-50 hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 shadow-sm"
                         >
                             View Resume
-                            <Download className="ml-2 h-5 w-5" />
+                            <Eye className="ml-2 h-5 w-5" />
                         </a>
                     </div>
 
