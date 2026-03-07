@@ -26,14 +26,14 @@ const Projects = () => {
             thumbnail: '/bloomland.png'
         },
         {
-            title: 'Ea Labs',
+            title: 'EA Labs',
             description: 'Developed a web application where users can view lab information and test details, and contact labs directly for inquiries. Implemented an admin panel to manage lab data, test details, and user interactions, ensuring efficient administration and a smooth user experience.',
             technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'CSS', 'Tanstack Query'],
             link: 'https://ealabs.co.in',
             thumbnail: '/labs.png'
         },
         {
-            title: 'Chat App',
+            title: 'WebChat',
             description: 'A full-stack real-time chat application built using the MERN stack. Styled with Tailwind CSS to deliver a modern and responsive user interface. Socket.io enables instant, bi-directional messaging between users. Designed for smooth, fast, and scalable real-time communication.',
             technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'CSS', 'Socket.io'],
             link: 'https://socketchatapp-85zq.onrender.com',
@@ -57,7 +57,7 @@ const Projects = () => {
             {/* Swiper Slider Added */}
             <Swiper
                 navigation={true}
-                modules={[Navigation]}
+                // modules={[Navigation]}
                 spaceBetween={30}
                 breakpoints={{
                     640: { slidesPerView: 1 },
@@ -71,15 +71,15 @@ const Projects = () => {
                         <Card
                             className="flex flex-col h-full group overflow-hidden border border-slate-200 bg-white hover:border-slate-400 transition-all duration-300"
                         >
-                            <div className="h-48 overflow-hidden border-b border-slate-100">
+                            <div className="overflow-hidden border-b border-slate-100">
                                 <img
                                     src={project.thumbnail}
                                     alt={project.title}
-                                    className="w-full h-full group-hover:scale-105 transition-transform duration-300"
+                                    className="w-full h-full group-hover:scale-105 transition-transform duration-300 rounded-lg"
                                 />
                             </div>
 
-                            <div className="flex-1 flex flex-col px-2">
+                            <div className="flex-1 flex flex-col px-1 pt-4">
 
                                 <h3 className="font-bold text-slate-900 mb-3 group-hover:underline decoration-slate-400 underline-offset-4 transition-all text-base sm:text-lg md:text-xl">
                                     {project.title}
