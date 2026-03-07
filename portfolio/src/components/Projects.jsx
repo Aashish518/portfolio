@@ -56,7 +56,7 @@ const Projects = () => {
             {/* Swiper Slider Added */}
             <Swiper
                 navigation={true}
-                // modules={[Navigation]}
+                modules={[Navigation]}
                 spaceBetween={30}
                 breakpoints={{
                     640: { slidesPerView: 1 },
