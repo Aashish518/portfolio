@@ -52,7 +52,7 @@ const Experience = () => {
                     {experiences.map((exp, index) => (
                         <Card
                             key={index}
-                            className="group relative overflow-hidden border-l-4 border-l-slate-800"
+                            className="group relative overflow-hidden border-l-4 border-l-slate-800 p-4 md:p-5 lg:p-0"
                         >
 
                             <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6 gap-4">

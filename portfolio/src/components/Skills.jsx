@@ -41,7 +41,7 @@ const Skills = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {skillGroups.map((group, idx) => (
-                    <Card key={idx} className="h-full hover:border-slate-400">
+                    <Card key={idx} className="h-full hover:border-slate-400 p-4 md:p-5 lg:p-0">
 
                         <h3 className="font-bold text-slate-800 mb-6 pb-2 border-b border-slate-100
                                        text-base sm:text-lg md:text-xl">
