@@ -9,7 +9,7 @@ const Experience = () => {
             title: 'MERN Stack Developer',
             company: 'Antinoob Solutions',
             location: 'Ahmedabad - 380054',
-            period: 'Oct 2025 – Present',
+            period: 'Oct 2025 – Feb 2026',
             responsibilities: [
                 'Built full-stack web applications using MongoDB, Express.js, React.js, and Node.js',
                 'Implemented efficient frontend state management with Redux Toolkit, Zustand, and TanStack Query (React Query) for API caching and synchronization',
