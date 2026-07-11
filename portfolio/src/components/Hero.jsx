@@ -22,7 +22,6 @@ const Hero = () => {
 
                         <a
                             href="#Contact"
-                            target="_blank" rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-7 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold text-white transition-all bg-slate-900 rounded-lg hover:bg-slate-800 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
                         >
                             Contact Me
