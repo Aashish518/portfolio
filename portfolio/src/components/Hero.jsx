@@ -21,7 +21,7 @@ const Hero = () => {
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
                         <a
-                            href="#Contact"
+                            href="#contact"
                             className="inline-flex items-center justify-center px-7 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold text-white transition-all bg-slate-900 rounded-lg hover:bg-slate-800 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
                         >
                             Contact Me
